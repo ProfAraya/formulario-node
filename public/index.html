@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>formulário</h1>
+
+    <form action="/trata-formulario" method="GET">
+        <label for="id_nome">Nome:</label>
+        <input type="text" id="id_nome" name="nome">
+        <br>
+        <br>
+        <select name="curso">
+            <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+            <option value="BD">Banco de Dados</option>
+            <option value="ADS">Segurança da Informação</option>
+            <option value="ADS">Tecnologia da Informação</option>
+        </select>
+
+        <p>Semestre:</p>
+        <input type="radio" name="semestre" value="1" id="id_semestre1"> 
+        <label for="id_semestre1">1º</label>
+        <input type="radio" name="semestre" value="2" id="id_semestre2"> 
+        <label for="id_semestre2">2º</label>
+        <input type="radio" name="semestre" value="3" id="id_semestre3"> 
+        <label for="id_semestre3">3º</label>
+        <input type="radio" name="semestre" value="4" id="id_semestre4"> 
+        <label for="id_semestre4">4º</label>
+
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+        
+
+
+    </form>
+</body>
+</html>
